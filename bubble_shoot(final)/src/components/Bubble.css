@@ -1,0 +1,138 @@
+.main_div {
+  border: 1px solid black;
+  height: 600px;
+  width: 850px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
+.bubble_container {
+  display: flex;
+  flex-direction: row;
+}
+.left_div {
+  border: 1px solid black;
+  height: 550px;
+  width: 300px;
+  margin-top: 15px;
+}
+.right_div {
+  height: 530px;
+  width: 350px;
+  margin-left: 80px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.empty {
+  text-align: center;
+}
+.circles {
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+.input_div {
+  position: relative;
+  margin-left: 300px;
+  display: inline-block;
+}
+.empty_text{
+  text-align: center;
+}
+input {
+  height: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+#error {
+  color: red;
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  white-space: nowrap;
+}
+.shoot {
+  display: inline-block;
+  height: 35px;
+  border: none;
+  border-color: gray;
+  outline: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.error {
+  display: none;
+}
+.all_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  align-items: center;
+}
+.all_button button {
+  margin: 8px 0;
+}
+#empty button {
+  margin: 8px;
+}
+.green {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(149, 246, 149);
+  background-color: rgb(190, 237, 190);
+}
+.pitch {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(232, 156, 139);
+  background-color: rgb(241, 191, 180);
+}
+.blue {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 50%;
+  border: 1px solid rgb(114, 114, 240);
+  background-color: rgb(153, 153, 243);
+}
+.sky {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(144, 236, 248);
+  background-color: rgb(178, 240, 248);
+}
+.purple {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(223, 172, 223);
+  background-color: rgb(231, 190, 231);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
